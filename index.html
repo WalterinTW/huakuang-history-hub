@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="華光寺歷史頁面實驗入口，整理兩個靜態版本，方便比較摘要導覽式與短介紹加稍詳細內容的呈現方式。"
+    >
+    <title>華光寺歷史頁面實驗入口</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至主要內容</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到首頁頂端">
+        <span class="brand-mark" aria-hidden="true">光</span>
+        <span>華光寺歷史頁面實驗</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="sr-only">開合導覽選單</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="主要導覽">
+        <a href="#purpose">實驗目的</a>
+        <a href="#versions">版本入口</a>
+        <a href="#difference">版本差異</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="page-title">
+        <img
+          class="hero-image"
+          src="version-a/assets/images/1-3_大雄寶殿外觀照片.jpg"
+          alt="華光寺大雄寶殿外觀"
+        >
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Huakuang Temple History Hub</p>
+          <h1 id="page-title">華光寺歷史頁面實驗入口</h1>
+          <p>
+            這裡是華光寺歷史內容的靜態網站集散頁，集中放置兩個既有版本，方便閱讀、比較與後續部署。
+          </p>
+          <div class="hero-actions" aria-label="版本入口">
+            <a class="button primary" href="version-a/">進入 Version A</a>
+            <a class="button secondary" href="version-b/">進入 Version B</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section purpose-section" id="purpose" aria-labelledby="purpose-title">
+        <div class="container narrow">
+          <p class="section-kicker">實驗目的</p>
+          <h2 id="purpose-title">以安定、清楚的方式呈現寺院歷史</h2>
+          <p class="lead">
+            本入口頁保留兩個既有子網站的內容與視覺基調，並提供一個父層導覽，使訪客可以先理解版本差異，再選擇合適的閱讀方式。
+          </p>
+        </div>
+      </section>
+
+      <section class="section versions-section" id="versions" aria-labelledby="versions-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">兩個版本</p>
+            <h2 id="versions-title">選擇一種閱讀節奏</h2>
+          </div>
+
+          <div class="version-grid">
+            <article class="version-card">
+              <div>
+                <p class="version-label">Version A</p>
+                <h3>摘要導覽式</h3>
+                <p>
+                  以較精簡的段落與導覽結構整理重點，適合先快速掌握華光寺歷史脈絡與主要人物、事件。
+                </p>
+              </div>
+              <a class="button card-button" href="version-a/">查看 Version A</a>
+            </article>
+
+            <article class="version-card emphasized">
+              <div>
+                <p class="version-label">Version B</p>
+                <h3>短介紹＋稍詳細內容</h3>
+                <p>
+                  在各段落加入更完整的說明與補充，適合需要多停留一些時間、閱讀較多背景資料的訪客。
+                </p>
+              </div>
+              <a class="button card-button" href="version-b/">查看 Version B</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section difference-section" id="difference" aria-labelledby="difference-title">
+        <div class="container difference-layout">
+          <div>
+            <p class="section-kicker">版本差異</p>
+            <h2 id="difference-title">同一份歷史素材，兩種展示密度</h2>
+          </div>
+          <div class="difference-list" aria-label="版本差異說明">
+            <article>
+              <span>A</span>
+              <p>偏向摘要與導覽，方便快速瀏覽、建立整體印象。</p>
+            </article>
+            <article>
+              <span>B</span>
+              <p>保留短介紹，也加入稍詳細內容，適合較完整地閱讀。</p>
+            </article>
+            <article>
+              <span>Hub</span>
+              <p>父層首頁只負責說明與引導，不改寫兩個子版本的核心內容。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>華光寺歷史頁面實驗入口</p>
+        <div class="footer-links">
+          <a href="version-a/">Version A</a>
+          <a href="version-b/">Version B</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
